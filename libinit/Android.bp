@@ -17,9 +17,9 @@ cc_library_static {
 }
 
 cc_library_static {
-    name: "init_xiaomi_camellia",
-    srcs: ["init_xiaomi_camellia.cpp"],
-    whole_static_libs: ["libinit_xiaomi_camellia"],
+    name: "init_xiaomi_light",
+    srcs: ["init_xiaomi_light.cpp"],
+    whole_static_libs: ["libinit_xiaomi_light"],
     include_dirs: ["system/core/init"],
     recovery_available: true,
 }

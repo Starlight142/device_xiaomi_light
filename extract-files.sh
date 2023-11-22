@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=camellia
+DEVICE=light
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

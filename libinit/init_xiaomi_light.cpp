@@ -60,7 +60,7 @@ static const variant_info_t light_in_info = {
     .name = "light_in",
     .marketname = "POCO M4 5G",
     .model = "22041219PI",
-    .build_fingerprint = "POCO/light/light_in:13/ΤΡΙΑ.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "POCO/light/light_in:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
     .nfc = false,
 };
@@ -74,7 +74,7 @@ static const variant_info_t light_global_info = {
     .name = "light_global",
     .marketname = "Redmi 10 5G",
     .model = "22041219G",
-    .build_fingerprint = "Redmi/light/light:13/ΤΡΙΑ.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
     .nfc = false,
 };
 static const variant_info_t light_global_info = {
@@ -86,7 +86,7 @@ static const variant_info_t light_global_info = {
     .name = "light_global",
     .marketname = "Redmi 10 Prime+ 5G",
     .model = "22041219I",
-    .build_fingerprint = "Redmi/light/light:13/ΤΡΙΑ.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
     .nfc = false,
 };
@@ -99,7 +99,7 @@ static const variant_info_t light_global_info = {
     .name = "light_global",
     .marketname = "Redmi Note 11E",
     .model = " 22041219C",
-    .build_fingerprint = "Redmi/light/light:13/ΤΡΙΑ.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
     .nfc = false,
 };

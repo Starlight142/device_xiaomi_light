@@ -16,10 +16,4 @@ cc_library_static {
     recovery_available: true,
 }
 
-cc_library_static {
-    name: "init_xiaomi_light",
-    srcs: ["init_xiaomi_light.cpp"],
-    whole_static_libs: ["libinit_xiaomi_light"],
-    include_dirs: ["system/core/init"],
-    recovery_available: true,
-}
+

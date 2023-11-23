@@ -22,7 +22,7 @@ static const variant_info_t lightcm_info = {
     .nfc = false,
 };
 
-static const variant_info_t lightin_info = {
+static const variant_info_t lightin1_info = {
     .hwc_value = "light",
     .sku_value = "light_global",
 
@@ -87,7 +87,7 @@ static const variant_info_t lightea_info = {
 
 static const std::vector<variant_info_t> variants = {
     lightcm_info,
-    lightin_info,
+    lightin1_info,
     light_info,
     lightgl_info,
     lightin_info,

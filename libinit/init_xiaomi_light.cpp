@@ -16,7 +16,7 @@ static const variant_info_t lightcm_info = {
     .brand = "Redmi",
     .device = "lightcm",
     .model = "Redmi Note 11R",
-    .build_fingerprint = Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
 
     .nfc = false,
@@ -29,7 +29,7 @@ static const variant_info_t lightin_info = {
     .brand = "Redmi",
     .device = "light",
     .model = "Redmi Note 11E",
-    .build_fingerprint = Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
 
     .nfc = false,
@@ -79,7 +79,7 @@ static const variant_info_t lightea_info = {
     .brand = "Redmi",
     .device = "lightcm",
     .model = "Redmi 11 prime 5G",
-    .build_fingerprint = Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys",
 
 
     .nfc = false,

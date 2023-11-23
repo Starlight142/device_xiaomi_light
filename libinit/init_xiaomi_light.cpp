@@ -44,7 +44,7 @@ static const variant_info_t light_info = {
     .model = "Redmi 10 5G",
     .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys"
 
-    .nfc = false,
+    
 };
 
 static const variant_info_t lightgl_info = {
@@ -56,7 +56,7 @@ static const variant_info_t lightgl_info = {
     .model = "Redmi 10 prime+ 5G",
     .build_fingerprint = "Redmi/light/light:13/ΤΡ1Α.220624.014/V14.0.5.0.TLSMIXM:user/release-keys"
 
-    .nfc = false,
+   
 };
 
 static const variant_info_t lightin_info = {

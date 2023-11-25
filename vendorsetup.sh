@@ -2,8 +2,6 @@ git clone --depth=1 https://github.com/light-trees/vendor_xiaomi_light.git -b li
 
 git clone --depth=1 https://github.com/light-trees/device_xiaomi_light-kernel.git -b Lineage-20 device/xiaomi/light-kernel
 
-git clone --depth=1 https://github.com/light-trees/karnel_xiaomi_light.git -b 13 kernel/xiaomi/light
-
 git clone --depth=1 https://github.com/nashc-dev/android_hardware_mediatek.git hardware/mediatek
 
 git clone --depth=1 https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr

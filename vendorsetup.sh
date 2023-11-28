@@ -7,4 +7,4 @@ git clone --depth=1 https://github.com/PQEnablers-Devices/android_hardware_media
 git clone --depth=1 https://github.com/PQEnablers-Devices/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr
 
  
-git clone --depth=1 https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git hardware/xiaomi
+git clone --depth=1 https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi

@@ -14,7 +14,7 @@
 | Rear Camera             | 50 MP, f/1.8, (wide), PDAF                           |                                             |
 |                         | 2 MP, f/2.4, (macro)                                                       |
 | Front Camera            | 5 MP, f/2.5, (wide)                                        |
-| Release Date            | March 2022 - All Information Is not Correct - Taken from web                                                              |
+| Release Date            | May 2022 - All Information Is not Correct - Taken from web                                                              |
 ## Device Picture
 
 ![POCO M4 5G](https://i02.appmifile.com/34_operator_sg/21/07/2022/40acc04f63f5ad7936f6ae01a1eca3e5.png?f=webp "POCO M4 5G")

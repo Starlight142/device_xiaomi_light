@@ -1,4 +1,4 @@
-#  Unified Device Tree for Redmi Note 11E/Redmi 10 5G/POCO M4 5G/Redmi 11 Prime 5G
+  Unified Device Tree for Redmi Note 11E/Redmi 10 5G/POCO M4 5G/Redmi 11 Prime 5G
 
 | Feature                 | Specification                                                              |
 | :---------------------- | :--------------------------------                                          |

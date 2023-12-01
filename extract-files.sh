@@ -55,9 +55,6 @@ fi
 
 function blob_fixup {
     case "$1" in
-        system/lib64/libsink.so)
-            "${PATCHELF}" --add-needed "libshim_sink.so" "$2"
-	    ;;
         vendor/lib*/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v32.so" "$2"
             ;;
@@ -76,6 +73,17 @@ function blob_fixup {
             ;;
 	vendor/lib*/libmtkcam_stdutils.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
+            ;;
+	vendor/bin/mnld | \
+	vendor/lib*/libaalservice.so | \
+	vendor/lib64/libcam.utils.sensorprovider.so)
+            "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-hidl.so" "$2"
+            ;;
+	vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml)
+            sed -i 's/1.1/1.2/' "$2"
+            ;;
+	vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
+            "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
             ;;
     esac
 }

@@ -1,4 +1,4 @@
-git clone --depth=1 https://github.com/light-trees/vendor_xiaomi_light.git -b lineage-20 vendor/xiaomi/light
+git clone --depth=1 https://github.com/light-trees/vendor_xiaomi_light.git -b A14 vendor/xiaomi/light
 
 git clone --depth=1 https://github.com/light-trees/device_xiaomi_light-kernel.git -b Lineage-20 device/xiaomi/light-kernel
 

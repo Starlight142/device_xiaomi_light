@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/light/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
@@ -22,7 +22,7 @@ PRODUCT_NAME := aosp_light
 PRODUCT_DEVICE := light
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 22041219G
+PRODUCT_MODEL := Redmi 10 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
